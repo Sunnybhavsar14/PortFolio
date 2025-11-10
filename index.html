@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunny Bhavsar - Full Stack Developer</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+</head>
+
+<body>
+    <header id="header">   
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo-container">
+                    <img src="logo.1.png" alt="Sunny Bhavsar Logo" class="logo">
+                </div>
+                
+                <ul class="nav-links" id="sidemenu">
+                    <li><a href="#header" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-x close-menu" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars menu-toggle" onclick="openmenu()"></i>
+            </nav>
+
+            <div class="hero-section">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <span class="subtitle">Full Stack Developer</span>
+                        <h1>Hi, I'm <span class="highlight">Sunny Bhavsar</span></h1>
+                        <p class="location">From Burhanpur, India</p>
+                        <div class="cta-buttons">
+                            <a href="" download class="btn primary-btn">
+                                <i class="fas fa-download"></i> Download CV
+                            </a>
+                            <a href="#contact" class="btn secondary-btn">
+                                <i class="fas fa-envelope"></i> Let's Talk
+                            </a>
+                        </div>
+                    </div>
+                    <div class="hero-image">
+                        <div class="image-container">
+                            
+                            <img src="sunny bhavsar photo..png" class="profile-img" alt="Sunny Bhavsar">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- ----------------------------------------------------------------------------------------------------------- -->
+
+    <!-- About Section -->
+
+    <div id="about">
+
+        <div class="container">
+            <div class="row">
+                <div class="aboutCol1">
+
+                    <img src="sunny bhavsar photo..png">
+                </div>
+                <div class="aboutCol2">
+                    <h1 class="subTital">About Me</h1>
+                    <p>I'm a Full Stack Developer who loves creating websites and applications that work smoothly and look great. I have experience in both front-end(the parts users see) and back-end(the parts that make everything run behind the scenes), so I can handle projects from start to finish. Using tools like JavaScript , and frameworks like React and Node.js , I build user-friendly interfaces and strong , reliable server systems. <br> My focus is on delivering high-quality , effective solutions that meet clients'needs . I'm always learning and improving my skills to keep up with new trends in technology. Whether it's building something new or improving an existing projects , I'm dedicated to doing great work that makes a real impact.</p>
+
+                    <div class="tabTital">
+                        <p class="tabLinks active" onclick="opentab('skills')">Skills</p>
+                        <p class="tabLinks" onclick="opentab('experience')">Projects</p>
+                        <p class="tabLinks" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tabContents activetab" id="skills">
+                        <ul>
+                            <li><span>Front End Developer</span><br>Responsive Design <br>Version Control Systems <br>Cross-Browser Compatibility <br>Testing and Debugging</li>
+                            <li><span>Backend Developer</span><br>Database Management <br>APIs and RESTful Services <br>Authentication and Authorization</li>
+                            <li><span>Language Support</span><br>C-C++ || java || SQL || ReactJS || HTML || CSS ||  DSA || </li>
+
+                        </ul>
+                    </div>
+                    <!-- ------------------------------------------------------------------------------- -->
+
+                    <div class="tabContents" id="experience">
+                        <ul>
+                            <li><span>Websites Clone</span><br><a href="https://drive.google.com/drive/folders/1_i5XTaofiMlClmXO8243l_cBvwBxf0P4?usp=sharing">College profile Clone</a> <br><a href="https://drive.google.com/drive/folders/1GTZTWSok5KOj64uz119VOG9T06wPUIxY?usp=sharing">Maruti Suzuki Clone</a> <br><a href="https://drive.google.com/drive/folders/1GTZTWSok5KOj64uz119VOG9T06wPUIxY?usp=sharing">IRCTC Clone</a></li>
+                            <li><span>Responsive Games</span><br><a href="https://drive.google.com/drive/folders/1GEfqmvv6XXwSOCUAfA0Q24cEx9xNR9yi?usp=sharing">tic tak teo</a> <br> <a href="https://drive.google.com/drive/folders/1TPnV2yOdpkTGPGJHSBCXntNzhRcJfifr?usp=sharing">Stone Paper Scissor</a><br><a href="https://drive.google.com/drive/folders/1HM51OGLc66VcqGTZT5ALSE6832eMnZgr?usp=sharing">Simon Say Game </a></li>
+                            <!-- <li><span>No Experience</span><br> - <br> - </li> -->
+
+                        </ul>
+                    </div>
+
+                    <!-- ------------------------------------------------------------------------------------------- -->
+
+                    <div class="tabContents" id="education">
+                        <ul>
+                            <li><span>High School</span><br>10th - 80% <br>12th - 70%</li>
+                            <li><span>Graduation Course</span><br>BCA - 1st(8.00 CGPA) <br>BCA - 2nd(8.00CGPA) <br>BCA - 3rd( -- CGPA) </li>
+                            <li><span>Post Graduation</span><br> - </li>
+
+                        </ul>
+                    </div>
+
+
+    <!-- ------------------------------------------------------------------------------------------------------------------------- -->
+                </div>
+      
+            </div>
+        </div>
+    </div>
+
+    <!-- ------------------------------------------------------------------------------ -->
+
+    <!-- ---------------------SERVICES-------------------------------- -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="servicesList">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h2>Web Design</h2>
+                    <p>Creating visually stunning and user-friendly website layouts that engage visitors and deliver exceptional user experiences. Specializing in modern design principles and responsive interfaces.</p>
+                    <div class="service-features">
+                        <span>UI/UX Design</span>
+                        <span>Responsive Layout</span>
+                        <span>Visual Design</span>
+                    </div>
+                    <a href="https://en.wikipedia.org/wiki/Web_design" class="service-link">Learn more <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h2>Database Management</h2>
+                    <p>Expert database solutions ensuring optimal performance, security, and scalability. From design to implementation and maintenance of robust database systems.</p>
+                    <div class="service-features">
+                        <span>Data Modeling</span>
+                        <span>Performance Tuning</span>
+                        <span>Security</span>
+                    </div>
+                    <a href="https://en.wikipedia.org/wiki/Data_management" class="service-link">Learn more <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h2>Full Stack Development</h2>
+                    <p>End-to-end web development services covering both frontend and backend technologies. Building scalable, secure, and high-performance web applications.</p>
+                    <div class="service-features">
+                        <span>Frontend</span>
+                        <span>Backend</span>
+                        <span>API Integration</span>
+                    </div>
+                    <a href="https://en.wikipedia.org/wiki/Frontend_and_backend" class="service-link">Learn more <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------------------------------------------------------------------------------------------------- -->
+
+    <!-------------------Portfolio (work) ---------------------------------- -->
+
+    <div id="portfolio">
+        <div class="container">
+
+            <h1 class="subTitle">My Work</h1>
+            <div class="workList">
+
+                <div class="work">
+                    <img src="website.jpeg">
+
+                    <div class="layer">
+                        <h3><strong>Websites clones</strong></h3>
+                        <p>Website clones are replicas or close copies of an existing website's design , features , or functionality.</p>
+                            <a href="https://drive.google.com/file/d/1W1lygDyf5cc7cAniG57pC7GB3UWBMDJ8/view?usp=sharing"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+    <!-- ---------------------------------------------------------- -->
+                <div class="work">
+                    <img src="game.jpeg">
+
+                    <div class="layer">
+                        <h3><strong>Games</strong></h3>
+                        <p>Creating games with HTML , CSS , and JavaScript involves using web-development language to build interactive , browser-based games.</p>
+                            <a href="https://drive.google.com/drive/folders/1GEfqmvv6XXwSOCUAfA0Q24cEx9xNR9yi?usp=sharing"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+    <!-- ------------------------------------------------------------------- -->
+                <div class="work">
+                    <img src="gamewithb.jpeg">
+
+                    <div class="layer">
+                        <h3><strong>Games with Backend</strong></h3>
+                        <p>Browser games with a backend are online games that use both front-end and back-end technologies to deliver an intractive and dynamic experience. </p>
+                            <a href="https://drive.google.com/drive/folders/1HM51OGLc66VcqGTZT5ALSE6832eMnZgr?usp=sharing"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+    <!-----------------------------------------------------------------------  -->
+            </div>
+
+            <a href="#" class="btn">See more</a>
+
+        </div>
+    </div>
+
+    <!-- -------------Portfolio Complete------------ -------------------- -->
+
+    <!-- --------Contact Info----------------------- -->
+
+    <div id="contact">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> sunnybhavsar1411@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 9098439542</p>
+                    <p><i class="fa-solid fa-location"></i>Arjun Nagar Lalbagh Buehnapur [M.P.] 450331</p>
+
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/share/18PvMp5JX1/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.facebook.com/share/18PvMp5JX1/"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/sunny_bhavsar_05/profilecard/?igsh=MTc5MzJ3N2VwOW02MA=="><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/sunny-bhavsar-a60900342"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+
+                    
+
+                   
+                    <!-- ----------------------------------------------------------- -->
+                </div>
+
+                <div class="contact-right">
+                    
+                    <form name="submit-to-google-sheet">
+
+                        <input type="text" name="Name" placeholder="Enter Your Name" required>
+                        <input type="text" name="Mobile Number" placeholder="Enter your Number" required>
+                        <input type="email" name="E-mail" placeholder="Enter Your E-mail" required>
+                        <textarea name="Message" rows="6" placeholder="Enter Your Message"></textarea>
+                        <button type="submit" class="btn bnt2">Submit</button>
+                    </form>
+
+                <span id="msg"></span>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>copyright @Sunny_Bhavsar  All rights reserved.</p>
+        </div>
+    </div>
+
+
+    <!-- ------------------------JAVA SCRIPT------------------------------- -->
+
+    <script>
+        var tablinks = document.getElementsByClassName("tabLinks");
+        var tabContents = document.getElementsByClassName("tabContents");
+        
+        function opentab(tabname) {
+            for(tablink of tablinks) {
+                tablink.classList.remove("active");
+            }
+
+            for(tabContent of tabContents) {
+                tabContent.classList.remove("activetab");
+            }
+
+            event.currentTarget.classList.add("active");
+
+            document.getElementById(tabname).classList.add("activetab");
+        }
+
+
+    </script>
+
+
+    <script>
+        // Navbar scroll effect
+        window.addEventListener('scroll', function() {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        // Mobile menu functionality
+        function openmenu() {
+            const sidemenu = document.getElementById("sidemenu");
+            sidemenu.classList.add("active");
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closemenu() {
+            const sidemenu = document.getElementById("sidemenu");
+            sidemenu.classList.remove("active");
+            document.body.style.overflow = 'auto';
+        }
+
+        // Close menu when clicking outside
+        document.addEventListener('click', function(event) {
+            const sidemenu = document.getElementById("sidemenu");
+            const menuToggle = document.querySelector('.menu-toggle');
+            if (!sidemenu.contains(event.target) && !menuToggle.contains(event.target)) {
+                sidemenu.classList.remove("active");
+                document.body.style.overflow = 'auto';
+            }
+        });
+
+        // Active link highlighting
+        const sections = document.querySelectorAll('section[id]');
+        window.addEventListener('scroll', () => {
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if (window.scrollY >= (sectionTop - sectionHeight/3)) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            document.querySelectorAll('.nav-links a').forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href').slice(1) === current) {
+                    link.classList.add('active');
+                }
+            });
+        });
+    </script>
+
+
+    <!-- ------------------------------------------------------------------------------- -->
+        <!-- <script src="app.js"></script>
+
+        <form name="submit-to-google-sheet">
+             <input name="email" type="email" placeholder="Email" required>
+            <button type="submit">Send</button> -->
+          <!-- </form> -->
+        
+          <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbzJpXDob_NhC38stFjjJyGJQdFLFfkjy-mcujBiTQ3xuosrFZSKCqmWLGLWSnM1vClsvw/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById("msg")
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function() {
+                        msg.innerHTML = ""
+                    } , 5000)
+
+                    form.reset();
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+
+</body>
+</html>
